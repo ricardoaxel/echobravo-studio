@@ -239,8 +239,88 @@ export default function App() {
         </ParallaxLayer>
 
         {/* Section 2 */}
+        <ParallaxLayer offset={1.12} speed={1}>
+          <div class="fondoTarjetaSec2"></div> 
+        </ParallaxLayer>
+
+        {/* Cards */}
+        <ParallaxLayer offset={1.3} speed={1.5}>
+          <div class="tarjetasSec2">
+            <div class="textoTarjetas">
+                <div class="titulos">
+                  <h5>N. canciones</h5>
+                  <h5>1</h5>
+                  <h5>3</h5>
+                  <h5>5</h5>
+                  <h5>8</h5>
+                </div>
+
+                <div class="precios">
+                  $400
+                  <p>$1000</p>
+                  <p>$1600</p>
+                  <p>$2500</p>
+                </div>
+              
+              </div>
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1.3} speed={2}>
+          <div class="tarjetasSec2" id="tarjeta2Sec2">
+            <div class="textoTarjetas">
+                <div class="titulos">
+                  <h5>N. canciones</h5>
+                  <h5>1</h5>
+                  <h5>3</h5>
+                  <h5>4</h5>
+                  <h5>8</h5>
+                </div>
+
+                <div class="precios">
+                  $350
+                  <p>$900</p>
+                  <p>$1500</p>
+                  <p>$2350</p>
+                </div>
+              
+              </div>
+          </div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1.3} speed={3}>
+          <div class="tarjetasSec2" id="tarjeta3Sec2">
+              <div class="textoTarjetas">
+                <div class="titulos">
+                  <h5>N. canciones</h5>
+                  <h5>1</h5>
+                  <h5>3</h5>
+                  <h5>5</h5>
+                  <h5>8</h5>
+                </div>
+
+                <div class="precios">
+                  $200
+                  <p>$500</p>
+                  <p>$700</p>
+                  <p>$1000</p>
+                </div>
+              
+              </div>
+          </div>
+        </ParallaxLayer>
+        {/* Titles */}
+        <ParallaxLayer offset={1.25} speed={1.5}>
+          <div class="titTarjetasSec2"><h3>Grabación+Mezcla+Master</h3></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1.25} speed={2}>
+          <div class="titTarjetasSec2" id="titTarjeta2Sec2"><h3>Grabación+Mezlca</h3></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1.25} speed={3}>
+          <div class="titTarjetasSec2" id="titTarjeta3Sec2"><h3>Grabación</h3></div>
+        </ParallaxLayer>
+
+
         
-        <ParallaxLayer offset={1.09} speed={.4}>
+        <ParallaxLayer offset={1} speed={4}>
           {/*BANDCAMP */}
           <div id="tit2"><h2>Portafolio</h2>
             {bcAlbumTransition ? <div class="bandcampPlayerTransition"/>
@@ -276,14 +356,9 @@ export default function App() {
           
         </ParallaxLayer>
         
-        <ParallaxLayer offset={.9} speed={1}>
-          <div class="fondoTarjetaSec2"></div>
-          
-        </ParallaxLayer>
-        <ParallaxLayer offset={.6} speed={1}>
-          <div class="fondoTarjetaSec2"></div>
-          
-        </ParallaxLayer>
+       
+        
+
 
         
         {/* Section 3 */}
