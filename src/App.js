@@ -238,8 +238,10 @@ export default function App() {
           </div>
         </ParallaxLayer>
 
-        {/* Section 2 */}
-        <ParallaxLayer offset={1.12} speed={1}>
+
+
+        {/* SECTION 2 */}
+        <ParallaxLayer offset={1.22} speed={1}>
           <div class="fondoTarjetaSec2"></div> 
         </ParallaxLayer>
 
@@ -308,20 +310,24 @@ export default function App() {
           </div>
         </ParallaxLayer>
         {/* Titles */}
-        <ParallaxLayer offset={1.25} speed={1.5}>
+        <ParallaxLayer offset={1.1} speed={-2.5}>
+          <div id="titFondoTarjetasSec2"><h2>Paquetes</h2></div>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1.2} speed={1.5}>
           <div class="titTarjetasSec2"><h3>Grabación+Mezcla+Master</h3></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1.25} speed={2}>
+        <ParallaxLayer offset={1.2} speed={2}>
           <div class="titTarjetasSec2" id="titTarjeta2Sec2"><h3>Grabación+Mezlca</h3></div>
         </ParallaxLayer>
-        <ParallaxLayer offset={1.25} speed={3}>
+        <ParallaxLayer offset={1.2} speed={3}>
           <div class="titTarjetasSec2" id="titTarjeta3Sec2"><h3>Grabación</h3></div>
         </ParallaxLayer>
 
 
-        
-        <ParallaxLayer offset={1} speed={4}>
-          {/*BANDCAMP */}
+
+        {/*BANDCAMP */}
+        <ParallaxLayer offset={1.05} speed={4}>
+          
           <div id="tit2"><h2>Portafolio</h2>
             {bcAlbumTransition ? <div class="bandcampPlayerTransition"/>
               : null
@@ -363,11 +369,24 @@ export default function App() {
         
         {/* Section 3 */}
 
-
-        <ParallaxLayer offset={2} speed={0}>
+        <ParallaxLayer offset={2.0} speed={0}>
           <div id="fondoSec3">
-            
           </div>
+        </ParallaxLayer>
+        
+        {/* Cards */}
+        <ParallaxLayer offset={2.4} speed={1.5}>
+          <div class="tarjetasSec3">
+            <div class="textoSec3">
+                Grabación en formato "Live Session" para proyectos y bandas de hasta 6 instrumentos 
+              </div>
+          </div>
+        </ParallaxLayer>
+        
+        {/* Titles */}
+        
+        <ParallaxLayer offset={2.3} speed={1.5}>  
+          <div class="titTarjetasSec3"><h3>Grabación Full Band</h3></div>
         </ParallaxLayer>
 
         <ParallaxLayer offset={2.09} speed={-2}>
@@ -375,31 +394,32 @@ export default function App() {
             {ytVideoTransition ? <div class="youtubePlayerTransition"/>
               : null
             }
-            
-            <ReactPlayer url={ytVideo.url} />
-            <div class="roundbutton izqbutton" onClick={() => handleArrowYTVideo("izq")}>
-              <div class="flecha rotate"></div>
-            </div>
-            <div class="roundbutton derbutton" onClick={() => handleArrowYTVideo("der")}>
-              <div class="flecha"></div>
-            </div>
-            <div id="youtubeSelection">
-              <TextField
-                  select
-                  id = "ytVideoSelect"
-                  label="Lista de sesiones"
-                  value={ytVideo} 
-                  helperText="Selecciona alguna sesión"
-                  onChange={handleChangeYTVideo} 
-                  variant="filled"
-                >
-                  {youtubeVideos.map((option) => (
-                    <MenuItem key={option.name} value={option.name}>
-                      {option.name}
-                    </MenuItem>
-                  ))}
-                </TextField>
+            <div id="ytPlayer">
+              <ReactPlayer url={ytVideo.url} />
+              <div class="roundbutton izqbutton" onClick={() => handleArrowYTVideo("izq")}>
+                <div class="flecha rotate"></div>
               </div>
+              <div class="roundbutton derbutton" onClick={() => handleArrowYTVideo("der")}>
+                <div class="flecha"></div>
+              </div>
+              <div id="youtubeSelection">
+                <TextField
+                    select
+                    id = "ytVideoSelect"
+                    label="Lista de sesiones"
+                    value={ytVideo} 
+                    helperText="Selecciona"
+                    onChange={handleChangeYTVideo} 
+                    variant="filled"
+                  >
+                    {youtubeVideos.map((option) => (
+                      <MenuItem key={option.name} value={option.name}>
+                        {option.name}
+                      </MenuItem>
+                    ))}
+                  </TextField>
+              </div>
+            </div>
           </div>
         </ParallaxLayer>
 

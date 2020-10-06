@@ -164,10 +164,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   position: absolute;
   right: 1%;
   text-align: right;
-  width: 42em;
+  width: 43em;
   border-radius: .4em;
-  background-color: #54545885;
-  height: 27em;
+  background-color: #1e1e2c52;
+  height: 26em;
   
 }
 
@@ -177,7 +177,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-align: right;
   width: 12em;
   border-radius: .3em;
-  background-color: #1111308f;
+  background-color: #0b0b1b8f;
   height: 20em;
   -webkit-box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
 -moz-box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
@@ -227,7 +227,10 @@ box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
   right: 36%;
 }
 
-
+#titFondoTarjetasSec2 {
+  position: absolute;
+  right: 2%;
+}
 
 /*SECCION 3*/
 #fondoSec3 {
@@ -242,11 +245,33 @@ box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
   border-radius: .1em;
 }
 
+.fondoTarjetaSec3{
+  position: absolute;
+  left: 1%;
+  text-align: right;
+  width: 43em;
+  border-radius: .4em;
+  background-color: #1e1e2c52;
+  height: 26em;
+}
+
+.titTarjetasSec3{
+  position: absolute;
+  left: 3%;
+  border-radius: .3em;
+  height: 20em;
+  text-align: center;
+}
+
+#ytPlayer{
+  position: relative;
+  top:3em;
+}
+
 #youtubeSelection {
   position: absolute;
-
-  top: 4.3em;
-  left: -11em;
+  top: -6em;
+  right: 0em;
   width: 10em;
   background-color: #dbd8e3;
   border-radius: 2px;
@@ -259,6 +284,33 @@ box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
   opacity: .6;
   background-color: rgb(24, 21, 21);
 }
+
+.cardsLeft{
+  left:2%;
+}
+
+.tarjetasSec3{
+  position: absolute;
+  left: 3%;
+  text-align: right;
+  width: 35em;
+  border-radius: .3em;
+  background-color: #0b0b1b8f;
+  height: 14em;
+  -webkit-box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
+  -moz-box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
+  box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43); 
+}
+
+.textoSec3{
+  padding-top:1em;
+  text-align: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+
+
 
 
 /*FOOTER*/
@@ -280,6 +332,8 @@ box-shadow: 0px 41px 68px -64px rgba(255,255,255,0.43);
   position: absolute;
   background-color: #c2c2d6;
 }
+
+
 
 
 
