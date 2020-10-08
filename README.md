@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Web page for the music studio "Echo-Bravo"
 
 ## Available Scripts
 
