@@ -219,7 +219,7 @@ export default function App() {
       </div>
 
       {/* Parallax page*/}
-      <Parallax pages={3.4} ref={(ref) => (parallax = ref)}>
+      <Parallax pages={3.3} ref={(ref) => (parallax = ref)}>
 
         {/* First Section*/}
         <ParallaxLayer offset={.2} speed={3}>
@@ -242,7 +242,12 @@ export default function App() {
 
         {/* SECTION 2 */}
         <ParallaxLayer offset={1.22} speed={1}>
-          <div class="fondoTarjetaSec2"></div> 
+          <div class="fondoTarjetaSec2">
+          <div id="nota">   
+              *Las grabaciones serán realizadas con el equipo de la banda
+              </div> 
+          </div>
+          
         </ParallaxLayer>
 
         {/* Cards */}
@@ -279,6 +284,7 @@ export default function App() {
                 </div>
 
                 <div class="precios">
+                  
                   $350
                   <p>$900</p>
                   <p>$1500</p>
@@ -286,6 +292,7 @@ export default function App() {
                 </div>
               
               </div>
+              
           </div>
         </ParallaxLayer>
         <ParallaxLayer offset={1.3} speed={3}>
@@ -309,6 +316,7 @@ export default function App() {
               </div>
           </div>
         </ParallaxLayer>
+        
         {/* Titles */}
         <ParallaxLayer offset={1.1} speed={-2.5}>
           <div id="titFondoTarjetasSec2"><h2>Paquetes</h2></div>
@@ -317,7 +325,7 @@ export default function App() {
           <div class="titTarjetasSec2"><h3>Grabación+Mezcla+Master</h3></div>
         </ParallaxLayer>
         <ParallaxLayer offset={1.2} speed={2}>
-          <div class="titTarjetasSec2" id="titTarjeta2Sec2"><h3>Grabación+Mezlca</h3></div>
+          <div class="titTarjetasSec2" id="titTarjeta2Sec2"><h3>Grabación+Mezcla</h3></div>
         </ParallaxLayer>
         <ParallaxLayer offset={1.2} speed={3}>
           <div class="titTarjetasSec2" id="titTarjeta3Sec2"><h3>Grabación</h3></div>
@@ -375,21 +383,41 @@ export default function App() {
         </ParallaxLayer>
         
         {/* Cards */}
-        <ParallaxLayer offset={2.4} speed={1.5}>
+        <ParallaxLayer offset={2.3} speed={1.5}>
           <div class="tarjetasSec3">
             <div class="textoSec3">
-                Grabación en formato "Live Session" para proyectos y bandas de hasta 6 instrumentos 
+                Grabación en formato "Live Session" para proyectos y bandas de hasta 6 instrumentos. 
+                <div class="titulos">
+                  <h5></h5>
+                  <h5>3</h5>
+                  <h5>5</h5>
+                  <h5>8</h5>
+                </div>
+
+                <div class="precios">
+                  &nbsp;
+                  <p>$500</p>
+                  <p>$700</p>
+                  <p>$1000</p>
+                </div>
+                <div id="textop2">
+                  Los paquetes incluyen mezcla y master (video no incluido).<br/><br/>
+                  <b>Detalles:</b ><br/>
+                  -Se tienen hasta 3 intentos por canción<br/>
+                  -Se puede agregar 2 tracks extra por canción en post-produción<br/>
+                  -La sesión será realizada con el equipo y en las instalaciones de la banda
+                </div>
               </div>
           </div>
         </ParallaxLayer>
         
         {/* Titles */}
         
-        <ParallaxLayer offset={2.3} speed={1.5}>  
+        <ParallaxLayer offset={2.2} speed={1.5}>  
           <div class="titTarjetasSec3"><h3>Grabación Full Band</h3></div>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2.09} speed={-2}>
+        <ParallaxLayer offset={2.09} speed={3}>
         <div id="tit2der"><h2>Live Sesions</h2>
             {ytVideoTransition ? <div class="youtubePlayerTransition"/>
               : null
@@ -426,9 +454,18 @@ export default function App() {
 
         {/*Footer*/}
         <ParallaxLayer offset={3} speed={0}>
-          <div id="headFooter">
-            </div>
+          
           <div id="fondoFooter">
+            <div class="socials">
+              <b>Para más información, contáctame:</b><br/><br/>
+              <img class="icon" src={ require("./img/fbBlack.png")}/>
+              
+              <img class="icon" src={ require("./img/instaBlack.png")}/>
+              
+              <img class="icon" src={ require("./img/emailBlack.png")}/>
+              
+              <img class="icon" src={ require("./img/whatsappBlack.png")}/>
+            </div>
           </div>
         </ParallaxLayer>
 
