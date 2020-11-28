@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/echobravo-studio/static/css/main.908d595a.chunk.css",
+    "main.js": "/echobravo-studio/static/js/main.739f588f.chunk.js",
+    "main.js.map": "/echobravo-studio/static/js/main.739f588f.chunk.js.map",
+    "runtime-main.js": "/echobravo-studio/static/js/runtime-main.e0280e31.js",
+    "runtime-main.js.map": "/echobravo-studio/static/js/runtime-main.e0280e31.js.map",
+    "static/js/2.1b21adc6.chunk.js": "/echobravo-studio/static/js/2.1b21adc6.chunk.js",
+    "static/js/2.1b21adc6.chunk.js.map": "/echobravo-studio/static/js/2.1b21adc6.chunk.js.map",
+    "index.html": "/echobravo-studio/index.html",
+    "precache-manifest.e407b17f493f08fae9d4a90f167545ee.js": "/echobravo-studio/precache-manifest.e407b17f493f08fae9d4a90f167545ee.js",
+    "service-worker.js": "/echobravo-studio/service-worker.js",
+    "static/css/main.908d595a.chunk.css.map": "/echobravo-studio/static/css/main.908d595a.chunk.css.map",
+    "static/js/2.1b21adc6.chunk.js.LICENSE.txt": "/echobravo-studio/static/js/2.1b21adc6.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/echobravo-studio/static/media/aboutme.6757530e.jpeg",
+    "static/media/emailBlack.png": "/echobravo-studio/static/media/emailBlack.678b4e53.png",
+    "static/media/fbBlack.png": "/echobravo-studio/static/media/fbBlack.3feee8da.png",
+    "static/media/instaBlack.png": "/echobravo-studio/static/media/instaBlack.97bcac2b.png",
+    "static/media/whatsappBlack.png": "/echobravo-studio/static/media/whatsappBlack.eeed2f16.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0280e31.js",
+    "static/js/2.1b21adc6.chunk.js",
+    "static/css/main.908d595a.chunk.css",
+    "static/js/main.739f588f.chunk.js"
+  ]
+}
